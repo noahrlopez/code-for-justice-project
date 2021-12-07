@@ -3,7 +3,6 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Poppins, sans-serif;
   
   }
   #mainheader  {
@@ -12,7 +11,7 @@
   }
 
   .about-wrapper {
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://s.abcnews.com/images/Health/backpack01-ht-jt-200623_hpEmbed_3x4_992.jpg");
+    background: url("https://images.unsplash.com/photo-1556557753-4d7eb13e06c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWluaW1hbGlzdCUyMGZsb3dlcnxlbnwwfHwwfHw%3D&w=1000&q=80");
     height: 160vh;
     -webkit-background-size:cover;
     background-size:cover;
@@ -20,40 +19,108 @@
     position: relative;
   }
 
-  nav{
-      background-color: whitesmoke;
-  }
-  .logo {
-    cursor: pointer;
-  }
-  .nav-links {
-    display: flex;
-    float: right;
-    list-style: none;
-    justify-content: space-around;
-    padding: 30px;
   
-  }
-  .nav-link {
-    color:#333;
-    text-decoration: none;
-    padding:10px 30px;
-    font-size:20px;
-    border: 1px solid #fff;
-    padding: 10px 50px;
-    border-radius: 10px;
-    padding: 5px;
-    margin-bottom: 25px;
-    margin-left: 20px;
-    margin-right:20px;
-  
-  }
-  .nav-link:hover {
-    background: #20C4CB;
-    color:aliceblue;
+  .about-paragraph-title {
+    margin-bottom: 15px;
+    font-size:25px;
+    background-color:#20C4CB;
     border-radius: 10px;
     padding: 5px;
     margin-bottom: 25px;
     margin-top: 20px;
+    
+  }
+  .about-paragraph {
+    margin-bottom: 35px;
+    font-size:20px;
+  
+  }
+  .about-intro-text {
+    position: absolute;
+    width:1200px;
+    height:30px;
+    margin: 0% 10%;
+    text-align: left;
+    color:#333;
+  }
+  .about-intro-text h1 {
+    text-align: center;
+    margin-bottom:30px;
+    font-size: 50px;
+  }
 
+   /* Nav */
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #20C4CB;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgb(26, 35, 167);
+  }
+
+  /* borders for nav tabs */
+  li {
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+ 
+  .footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(253, 231, 216);
+    color: black;
+  }
+
+  /* links */
+  .fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+   /* Facebook */
+   .fa-instagram {
+    background: #201a79;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-google {
+    background: #881717;
+    color: white;
   }
