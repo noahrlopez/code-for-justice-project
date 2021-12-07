@@ -1,7 +1,59 @@
+* {
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins, sans-serif;
+  
+  }
+  #mainheader  {
+    margin:auto;
+    
+  }
+
 .about-wrapper {
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://media.istockphoto.com/photos/homeless-man-sitting-and-begging-for-help-picture-id1265144216?b=1&k=20&m=1265144216&s=170667a&w=0&h=iqvjGDacludOhIhoooW53OdqZVlQfMRJEuJu9jTNye0="
+    background:url("https://s.abcnews.com/images/Health/backpack01-ht-jt-200623_hpEmbed_3x4_992.jpg");
+    height: 160vh;
     -webkit-background-size:cover;
     background-size:cover;
     background-position: center center;
     position: relative;
+  
+  }
+  nav{
+      background-color: whitesmoke;
+  }
+  .logo {
+    cursor: pointer;
+  }
+  .nav-links {
+    display: flex;
+    float: right;
+    list-style: none;
+    justify-content: space-around;
+    padding: 30px;
+  
+  }
+  .nav-link {
+    color:#333;
+    text-decoration: none;
+    padding:10px 30px;
+    font-size:20px;
+    border: 1px solid #fff;
+    padding: 10px 50px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right:20px;
+  
+  }
+  .nav-link:hover {
+    background: lightblue;
+    color:aliceblue;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+  
   }
