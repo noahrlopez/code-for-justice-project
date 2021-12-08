@@ -29,20 +29,84 @@
           margin: 30px;
           font-size: 40px;
           color: gray;
-          
       }
 
-      .container {
-          height: 600px;
+      h3 {
+          color: #20c4cb;
+          font-size: 40px;
+          text-align: center;
+      }
+
+      
+      
+      
+      .container-1 {
+          height: 650px;
           width: 1100px;
-          background-color: #e3ffff;
+          background-color: #effdfd;
           border-style: solid;
           border-width: 3px;
           border-color: #20c4cb;
-          display: block;
+          display: flex;
+          flex-direction: column;
           margin-left: auto;
           margin-right: auto;
           
+        }
+        
+        .container-p {
+            padding: 20px 20px 0px 20px;
+            margin: 20px 20px 0px 20px;
+            font-size: 20px;
+        }
+        
+        .image1 {
+            border: solid;
+            border-width: 2px;
+            border-color: #20c4cb;
+            border-radius: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .container-2 {
+            height: 800px;
+            width: 1100px;
+            background-color: #effdfd;
+            border-style: solid;
+            border-width: 3px;
+            border-color: #20c4cb;
+            display: flex;
+            flex-direction: row;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: -5px;
+            
+        }
+        
+        .container-3 {
+            height: 300px;
+            width: 1100px;
+            background-color: #effdfd;
+            border-style: solid;
+            border-width: 3px;
+            border-color: #20c4cb;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 100px;
+        }
+        
+        .box-image {
+            max-width: 32.4%;
+            max-height: 100%;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        
+        a {
+          text-decoration: none;
       }
 
 
@@ -55,19 +119,37 @@
         <li><a href="whoAreWe.html">Who Are We</a></li>
         <li><a href="whatWeDo.html">What We Do</a></li>
         <li><a href="getInvolved.html">Get Involved</a></li>
-        <li><a href="needHelp.html">Need Help?</a></li>
+        <li><a href="needHelp.html">Contact</a></li>
     </nav>
     <header>
         <h1>Get Involved</h1>
     </header>
-    <h2>Volunteer Opportunities</h2>
-        <div class="container">
+    <h2>VOLUNTEER OPPORTUNITIES</h2>
+        <div class="container-1">
+            <h3>BECOME AN ON-SITE HELPER</h3>
+                <img class="image1" src="images/homeless.jpg" alt="Food Drive in Austin"/>
+                <p class="container-p">We are always in need of some extra hands. We host food and clothing drives & community clean-up's weekly. 
+                We also assist with resume building and job hunting, as well as housing applications. If you have any free 
+                time to contribute during the week, we would love to help get you trained and on the ground!
+                </p>
+                <p class="container-p" style="font-weight: bold;">VISIT OUR <a href="contact.html">CONTACT PAGE</a> TO LEAVE US YOUR INFORMATION AND WE'LL REACH OUT TO YOU!
+                </p>
+                
+        </div>
+    <h2>DONATE</h2>
+        <div class="container-2">
+            <img class="box-image" src="images/food.jpg" alt="image of food"/>
+            <img class="box-image" src="images/clothes.jpg" alt="image of clothing"/>
+            <img class="box-image" src="images/money.jpg" alt="images of money"/>
+        </div>
+        <div class="container-3">
+            <h3>FOOD, CLOTHING & MONETARY DONATIONS</h3>
+                <p class="container-p">We accept donations in the form of food & water, clothing, and/or cash donations. 
+                Whether it's non-perishables, clothing that's been sitting in your closet colecting dust, or a couple of bucks. 
+                A little bit can go a long way.
+                </p>
+                <p class="container-p" style="font-weight:bold;">All donations can be brought to our main headquarters located at: 123 Main St. Austin, TX 78741</p>
 
         </div>
-    <h2>Donate</h2>
-        <div class="container" style="margin-bottom:100px;">
-
-        </div>
-
   </body>
 </html>
