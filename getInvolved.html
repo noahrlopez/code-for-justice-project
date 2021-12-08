@@ -4,31 +4,112 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Get Involved</title>
+    <!--social media icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <style>
       * {
           box-sizing: border-box;
       }
 
       body {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: "Saira Condensed", sans-serif;
+        background-color: floralwhite;
       }
 
       header {
           background-color: #20c4cb;
           height: 75px;
       }
+      /* Nav */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #20C4CB;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgb(26, 35, 167);
+  }
+
+  /* borders for nav tabs */
+  li {
+    border-right: 1px solid #bbb;
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(253, 231, 216);
+    color: black;
+  }
+
+  /* links */
+  .fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+   /* Facebook */
+   .fa-instagram {
+    background: #201a79;
+    color: white;
+  }
+
+  /* Twitter */
+  .fa-google {
+    background: #881717;
+    color: white;
+  }
 
       h1 {
           color: white;
-          font-size: 60px;
+          font-size: 50px;
           padding-left: 20px;
+          text-align: center;
       }
 
       h2 {
-          padding-left: 250px;
+
           margin: 30px;
           font-size: 40px;
           color: gray;
+          text-align: center;
       }
 
       h3 {
@@ -115,12 +196,14 @@
   </head>
   <body>
     <nav>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="whoAreWe.html">Who Are We</a></li>
-        <li><a href="whatWeDo.html">What We Do</a></li>
-        <li><a href="getInvolved.html">Get Involved</a></li>
-        <li><a href="needHelp.html">Contact</a></li>
-    </nav>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="WhoWeAre.html">Who We Are</a></li>
+          <li><a href="whatwedo.html">What We Do</a></li>
+          <li><a href="getinvolved.html">Get Involved</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     <header>
         <h1>Get Involved</h1>
     </header>
@@ -152,4 +235,16 @@
 
         </div>
   </body>
+  <footer class="footer"> 
+    <p> Copyright &copy; 2021 The Banin Organization All Rights Reserved</p>
+      <!--logo-->
+  <div class="grid-item"><img src="Banin.png" alt="logo" style="width:100px;height:100px;">
+  </div>
+  <p>
+    <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"  rel="noopener"></a>
+    <a href="https://twitter.com" class="fa fa-twitter" target="_blank" rel="noopener"></a>
+    <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank" rel="noopener"></a>
+    <a href="https://google.com" class="fa fa-google" target="_blank" rel="noopener"></a>
+ </p>
+  </footer>
 </html>
