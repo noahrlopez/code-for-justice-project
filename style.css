@@ -1,69 +1,45 @@
 
-  {
+ * {
 
     margin:0;
     padding:0;
     box-sizing:border-box;
+ }
+.wwd-container {
+  background:url("wwd\ pic.jpeg");
+  height: 200vh;
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center center;
+  position: relative;
+}
   
-  }
-  #mainheader  {
-    margin:auto;
-    
-  }
-
-  .about-wrapper {
-    background: url("https://images.unsplash.com/photo-1556557753-4d7eb13e06c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWluaW1hbGlzdCUyMGZsb3dlcnxlbnwwfHwwfHw%3D&w=1000&q=80");
-    height: 160vh;
-    -webkit-background-size:cover;
-    background-size:cover;
-    background-position: center center;
-    position: relative;
-  }
-
-  
-  .about-paragraph-title {
-    margin-bottom: 15px;
-    font-size:25px;
-    background-color:#20C4CB;
-    border-radius: 10px;
-    padding: 5px;
-    margin-bottom: 25px;
-    margin-top: 20px;
-    
-  }
-  .about-paragraph {
-    margin-bottom: 35px;
-    font-size:20px;
-  
-  }
-  .about-intro-text {
-    position: absolute;
-    width:1200px;
-    height:30px;
-    margin: 0% 10%;
+  .wwd-wrapper {
     text-align: left;
-    color:#333;
+    width:1200px;
+    margin: 0% 10%;
+  
   }
-  .about-intro-text h1 {
+  .wwd-wrapper h1{
     text-align: center;
     margin-bottom:30px;
     font-size: 50px;
   }
 
-   /* Nav */
-ul {}
-
-body{
-    background-color: floralwhite;
+  .wwd-paragraph {
+    margin-bottom: 35px;
+    font-size:20px;
+  }
+.wwd-title{
+  margin-bottom: 15px;
+  font-size:25px;
+  background-color:#5CE1E6;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 20px;  
 }
 
-body, html {
-    height: 100%;
-}
-
-.title{
-    
-}
 .groupMembers{
     font-family: Gilroy-Medium;
 }
@@ -96,9 +72,7 @@ font-weight: normal;}
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-}
-* {
-    box-sizing: border-box;
+
   }
   
   /* input text */
@@ -150,12 +124,12 @@ font-weight: normal;}
 
   /* Nav */
  
-main{
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #20C4CB;
+    background-color: #5CE1E6;
   }
   
   li {
@@ -184,6 +158,8 @@ main{
   }
  
   .footer {
+    display:flex;
+    justify-content: space-around;
     text-align: center;
     padding: 3px;
     background-color: rgb(253, 231, 216);
@@ -223,4 +199,4 @@ main{
   .fa-google {
     background: #881717;
     color: white;
-
+  }
